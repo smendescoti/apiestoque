@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiEstoque.Services", "ApiEstoque.Services\ApiEstoque.Services.csproj", "{8C08F0F0-BD9D-47D5-ADA1-7E05515549D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Services Layer", "1 - Services Layer", "{BA647B14-B07A-414C-855B-2BC5357DB825}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - InfraStructure Layer", "2 - InfraStructure Layer", "{85FDFC7B-D7D6-4C31-84C4-FD52D5AB4F54}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Tests", "3 - Tests", "{21564744-6548-4920-A0F2-D318C59124D6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiEstoque.Tests", "ApiEstoque.Tests\ApiEstoque.Tests.csproj", "{9A61F8FB-30A9-479E-A366-18C0D32950B4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiEstoque.Infra.Data", "ApiEstoque.Infra.Data\ApiEstoque.Infra.Data.csproj", "{BB937C05-75E0-411A-BBD7-B1F7F01FD2D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0C01C8E1-EF06-454C-83B6-3C619C989563}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C08F0F0-BD9D-47D5-ADA1-7E05515549D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C08F0F0-BD9D-47D5-ADA1-7E05515549D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C08F0F0-BD9D-47D5-ADA1-7E05515549D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C08F0F0-BD9D-47D5-ADA1-7E05515549D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A61F8FB-30A9-479E-A366-18C0D32950B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A61F8FB-30A9-479E-A366-18C0D32950B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A61F8FB-30A9-479E-A366-18C0D32950B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A61F8FB-30A9-479E-A366-18C0D32950B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB937C05-75E0-411A-BBD7-B1F7F01FD2D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB937C05-75E0-411A-BBD7-B1F7F01FD2D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB937C05-75E0-411A-BBD7-B1F7F01FD2D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB937C05-75E0-411A-BBD7-B1F7F01FD2D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8C08F0F0-BD9D-47D5-ADA1-7E05515549D8} = {BA647B14-B07A-414C-855B-2BC5357DB825}
+		{9A61F8FB-30A9-479E-A366-18C0D32950B4} = {21564744-6548-4920-A0F2-D318C59124D6}
+		{BB937C05-75E0-411A-BBD7-B1F7F01FD2D4} = {85FDFC7B-D7D6-4C31-84C4-FD52D5AB4F54}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D9A78DB-CCCA-470D-936B-332969DB3A04}
+	EndGlobalSection
+EndGlobal
